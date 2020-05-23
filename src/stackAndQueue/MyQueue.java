@@ -12,7 +12,7 @@ public class MyQueue {
     private List<Integer> data;
     private int p_start;
     public MyQueue(){
-        data = new ArrayList<Integer>();
+        data = new ArrayList<>();
         p_start = 0;
     }
     public boolean enQueue(int x){
